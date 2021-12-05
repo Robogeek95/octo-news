@@ -43,9 +43,9 @@ export default function SMSPortal() {
     const payload = {
       sender,
       recipients,
-      schedule,
+      purpose,
       text: message,
-      send_at: purpose,
+      send_at: schedule,
     };
 
     console.log({ payload });
